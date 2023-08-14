@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mangá Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Pacifico&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar navbar-brand m-0 manga-font fs-4">Mangá Store</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end mt-md-2" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold manga-font">
+                        <a class="nav-link" href="#sobre-a-loja">
+                            <i class="bi bi-house-door-fill"></i>
+                            Sobre a loja</a>
+                    </li>
+                    <li class="nav-item fw-bold manga-font">
+                        <a class="nav-link" href="#tipos">
+                            <i class="bi bi-bag-fill"></i>
+                            Tipos de produtos</a>
+                    </li>
+                    <li class="nav-item fw-bold manga-font">
+                        <a class="nav-link" href="#produtos">
+                            <i class="bi bi-cart-fill"></i>
+                            Nossos produtos</a>
+                    </li>
+                    <li class="nav-item fw-bold manga-font">
+                        <a class="nav-link" href="#contato">
+                            <i class="bi bi-chat-left-fill"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="w-100"
+                            src="https://teamcomics.com.br/wp-content/uploads/2023/06/Design-sem-nome-7.png"
+                            alt="Jujutsu Kaisen Manga">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100"
+                            src="https://pop.proddigital.com.br/wp-content/uploads/sites/8/2023/03/01-110.jpg"
+                            alt="Boku no Hero Manga">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100"
+                            src="https://www.laranjacast.com.br/wp-content/uploads/2023/07/cool-poster-art-for-chainsaw-man-created-by-vincent-aseo-1024x576.jpg"
+                            alt="Chainsaw man Manga">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100"
+                            src="https://gamerwk.sgp1.cdn.digitaloceanspaces.com/2022/10/Bleach-TYBW-Disney.jpg"
+                            alt="Bleach Manga">
+                    </div>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    </div>
+                </div>
+                <div class="pt-5 pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="https://cupulatrovao.com.br/wp-content/uploads/2020/06/loja-de-mang%C3%A1s-no-jap%C3%A3o.jpg"
+                                    class="d-block w-100 rounded" alt="">
+                            </div>
+                            <div class="col-md-7 mt-3 mt-md-0">
+                                <h2 class="section-title manga-font">Sobre <span class="text-colored">a loja</span></h2>
+                                <p>Somos especializados em vender vários tipos de conteúdo relacionado a cultura
+                                    japonesa.</p>
+                                <h3 class="section-title mt-5 manga-font">Sobre <span class="text-colored">o
+                                        local</span></h3>
+                                <p>Temos uma loja física no centro da cidade caso opte por nos visitar temos um ótimo
+                                    espaço para leitura e eventos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="tipos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center manga-font">Todos <span class="text-colored">os produtos</span>
+                    </h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://www.blogdoselback.com.br/wp-content/uploads/2022/07/Manga-1-min.jpg"
+                            alt="Mangás" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4 manga-font">
+                            <i class="bi bi-book"></i>
+                            Mangás
+                        </h3>
+                        <p>Temos mangás de vários e autores e de diversos tipos, escolha o que você mais gosta.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="https://fantasticloot.com.br/cdn/shop/products/S4ec0e02ff6eb46989c73f602c533255dW_1200x1200.jpg?v=1666035661"
+                            alt="Action figure" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4 manga-font">
+                            <i class="bi bi-person-circle"></i>
+                            Action Figures
+                        </h3>
+                        <p>Temos várias action figures para quem gosta de colecionar itens de colecionador venha e veja
+                            nossos produtos.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="https://m.media-amazon.com/images/I/51NRmkkxlVL._AC_SX466_.jpg"
+                            class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4 manga-font">
+                            <i class="bi bi-people-fill"></i>
+                            Cosplays
+                        </h3>
+                        <p>Temos cosplay pra você que quer fazer sua fantasia para eventos e temos provador também!!.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-5 pb-5" id="produtos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 manga-font">Nossos <span
+                            class="text-colored">produtos</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mangas"
+                                class="nav-link fw-bold text-start text-colored active manga-font">Mangás</button>
+
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#manhwas"
+                                class="nav-link fw-bold text-start text-colored manga-font">Manhwas</button>
+
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#action-figures"
+                                class="nav-link fw-bold text-start text-colored manga-font">Action Figures</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+
+                            <div class="tab-pane active" id="mangas">
+                                <div class="row">
+                                    <div class="col-md-3 product-card d-flex flex-column align-items-center">
+                                        <img src="https://m.media-amazon.com/images/I/71PBZJaSmAL._AC_UF1000,1000_QL80_.jpg"
+                                            class="d-block w-100" alt="Jujutsu Kaisen manga">
+                                        <h5 class="text-colored fw-bold mt-2 manga-font">Jujutsu Kaisen</h5>
+                                        <p class="text-center">Jujutsu Kaisen é um mangá japonês escrito e ilustrado por
+                                            Gege Akutami,
+                                            serializado na Weekly Shōnen Jump desde 5 de março de 2018.</p>
+                                        <span class="mb-4 fs-4 fw-bold price">R$ 19,99</span>
+                                        <button type="button" class="btn w-75 mb-3">Adicionar ao carrinho</button>
+                                    </div>
+
+                                    <div class="col-md-3 product-card  d-flex flex-column align-items-center">
+                                        <img src="https://comicboom.com.br/loja/wp-content/uploads/2018/05/my-hero-1.jpg"
+                                            class="d-block w-100" alt="Boku no Hero">
+                                        <h5 class="text-colored fw-bold mt-2 manga-font">Boku no Hero Academia</h5>
+                                        <p class="text-center">Boku no Hero Academia, também conhecido como My Hero
+                                            Academia no ocidente, é
+                                            uma série de mangá escrita e ilustrada por Kōhei Horikoshi.</p>
+                                        <span class="mb-4 fs-4 fw-bold price">R$ 19,99</span>
+                                        <button type="button" class="btn w-75 mb-3">Adicionar ao carrinho</button>
+                                    </div>
+
+                                    <div class="col-md-3 product-card  d-flex flex-column align-items-center">
+                                        <img src="https://m.media-amazon.com/images/I/71jnEkjX8RL._AC_UF1000,1000_QL80_.jpg"
+                                            class="d-block w-100" alt="Bersek">
+                                        <h5 class="text-colored fw-bold mt-2 manga-font">Bersek</h5>
+                                        <p class="text-center">Berserk é uma série de mangá escrita e ilustrada por
+                                            Kentaro Miura. Situado
+                                            em um mundo de fantasia sombria inspirado na Europa medieval, a história
+                                            gira em torno de Guts, um solitário mercenário, e Griffith, o líder de um
+                                            bando de mercenários chamado de "Bando do Falcão".</p>
+                                        <span class="mb-4 fs-4 fw-bold price">R$ 19,99</span>
+                                        <button type="button" class="btn w-75 mb-3">Adicionar ao carrinho</button>
+                                    </div>
+
+                                    <div class="col-md-3 product-card d-flex flex-column align-items-center">
+                                        <img src="https://m.media-amazon.com/images/I/51BeRXEKuWL._AC_UF1000,1000_QL80_.jpg"
+                                            class="d-block w-100" alt="Chainsaw man">
+                                        <h5 class="text-colored fw-bold mt-2 manga-font">Chainsaw man</h5>
+                                        <p class="text-center">Chainsaw Man é um mangá japonês escrito e ilustrado por
+                                            Tatsuki Fujimoto. Foi
+                                            publicado na revista Weekly Shonen Jump da editora Shueisha de dezembro de
+                                            2018 até dezembro de 2020.</p>
+                                        <span class="mb-4 fs-4 fw-bold price">R$ 19,99</span>
+                                        <button type="button" class="btn w-75 mb-3">Adicionar ao carrinho</button>
+                                    </div>
+
+                                    <div class="col-md-3 product-card  d-flex flex-column align-items-center">
+                                        <img src="https://m.media-amazon.com/images/I/71TY7kJBo9L._AC_UF1000,1000_QL80_.jpg"
+                                            class="d-block w-100" alt="Vagabond">
+                                        <h5 class="text-colored fw-bold mt-2 manga-font">Vagabond</h5>
+                                        <p class="text-center">Vagabond é uma série de mangá escrita e ilustrada por
+                                            Takehiko Inoue, baseada
+                                            no romance Musashi, de Eiji Yoshikawa, que conta a história do samurai
+                                            Miyamoto Musashi.</p>
+                                        <span class="mb-4 fs-4 fw-bold price">R$ 19,99</span>
+                                        <button type="button" class="btn w-75 mb-3">Adicionar ao carrinho</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="manhwas">
+                                <div class="row">
+                                    <div class="col-md-3 product-card d-flex flex-column align-items-center">
+                                        <img src="https://cdn.awsli.com.br/2500x2500/1121/1121220/produto/172434819/8e86876269.jpg"
+                                            class="d-block w-100" alt="Solo leveling manhwa">
+                                        <h5 class="text-colored fw-bold mt-2 manga-font">Solo Leveling</h5>
+                                        <p class="text-center">Solo Leveling, também traduzido alternativamente como
+                                            Only I Level Up, é uma web novel sul-coreana escrita por Chugong.</p>
+                                        <span class="mb-4 fs-4 fw-bold price">R$ 29,99</span>
+                                        <button type="button" class="btn w-75 mb-3">Adicionar ao carrinho</button>
+                                    </div>
+
+                                    <div class="col-md-3 product-card  d-flex flex-column align-items-center">
+                                        <img src="https://m.media-amazon.com/images/I/91pyioyLTdL._AC_UF1000,1000_QL80_.jpg"
+                                            class="d-block w-100" alt="God of highschool manhwa">
+                                        <h5 class="text-colored fw-bold mt-2 manga-font">God of highschool</h5>
+                                        <p class="text-center">The God Of High School é um manhwa sul-coreano lançado
+                                            como um webtoon escrito e ilustrado por Yongje Park. Ele foi serializado na
+                                            plataforma webtoon da Naver Webtoon, desde abril de 2011.</p>
+                                        <span class="mb-4 fs-4 fw-bold price">R$ 29,99</span>
+                                        <button type="button" class="btn w-75 mb-3">Adicionar ao carrinho</button>
+                                    </div>
+
+                                    <div class="col-md-3 product-card  d-flex flex-column align-items-center">
+                                        <img src="https://i0.wp.com/www.otakupt.com/wp-content/uploads/2022/07/Tower-of-God-v9-1.jpg?resize=1280%2C1766&ssl=1"
+                                            class="d-block w-100" alt="Tower of God Manhwa">
+                                        <h5 class="text-colored fw-bold mt-2 manga-font">Tower of God</h5>
+                                        <p class="text-center">Tower of God é um webtoon escrito e desenhado por Lee
+                                            Jong-hui, também conhecido como SIU. O manhwa foi iniciado em 30 de junho de
+                                            2010.</p>
+                                        <span class="mb-4 fs-4 fw-bold price">R$ 29,99</span>
+                                        <button type="button" class="btn w-75 mb-3">Adicionar ao carrinho</button>
+                                    </div>
+
+                                    <div class="col-md-3 product-card  d-flex flex-column align-items-center">
+                                        <img src="https://machinenano.com/wp-content/uploads/2022/08/Manga-Cover-Claire-1-min.png"
+                                            class="d-block w-100" alt="Nano machine manhwa">
+                                        <h5 class="text-colored fw-bold mt-2 manga-font">Nano Machine</h5>
+                                        <p class="text-center">Depois de ser mantido em desdém e ter sua vida colocada
+                                            em perigo, um órfão do Culto Demoníaco, Cheon Yeo-Woon, tem uma visita
+                                            inesperada de seu descendente do futuro que insere uma nano máquina no corpo
+                                            de Cheon Yeo-Woon.</p>
+                                        <span class="mb-4 fs-4 fw-bold price">R$ 29,99</span>
+                                        <button type="button" class="btn w-75 mb-3">Adicionar ao carrinho</button>
+                                    </div>
+
+                                    <div class="col-md-3 product-card  d-flex flex-column align-items-center">
+                                        <img src="https://randomscans.com/wp-content/uploads/2022/12/the-build2.png"
+                                            class="d-block w-100" alt="The build up manhwa">
+                                        <h5 class="text-colored fw-bold mt-2 manga-font">The Build Up</h5>
+                                        <p class="text-center">Maru Kang era apenas um garoto comum com interesses
+                                            comuns, até que um dia seu pai o obrigou a assistir a um jogo de futebol na
+                                            TV, provocando uma obsessão pelo esporte. </p>
+                                        <span class="mb-4 fs-4 fw-bold price">R$ 29,99</span>
+                                        <button type="button" class="btn w-75 mb-3">Adicionar ao carrinho</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="action-figures">
+                                <div class="row">
+                                    <div class="col-md-3 product-card d-flex flex-column align-items-center">
+                                        <img src="https://www.fantoy.com.br/media/catalog/product/cache/3db55c74243ab666fe33f3bb10752784/y/u/yuta_okkotsu-min.jpg"
+                                            class="d-block w-100" alt="Yuuta action figure">
+                                        <h5 class="text-colored fw-bold mt-2 manga-font">Yuuta Okkotsu</h5>
+                                        <p class="text-center">Figura de ação do personagem Yuta Okkotsu do filme
+                                            Jujutsu Kaisen 0: The Movie
+                                            Figura: Jujutsu Kaisen 0: The Movie S.H.Figuarts Yuta Okkotsu
+                                            Fabricante: Bandai
+                                            Escala: 1/12
+                                            Material: PVC
+                                            Altura aproximada: 16 cm</p>
+                                        <span class="mb-4 fs-4 fw-bold price">R$ 499,99</span>
+                                        <button type="button" class="btn w-75 mb-3">Adicionar ao carrinho</button>
+                                    </div>
+
+                                    <div class="col-md-3 product-card  d-flex flex-column align-items-center">
+                                        <img src="https://www.fantoy.com.br/media/catalog/product/cache/5070b15b05522f191912dd31c57262ab/s/u/sukuna_-_jukon_no_kata_1-min.jpg"
+                                            class="d-block w-100" alt="Sukuna action figure">
+                                        <h5 class="text-colored fw-bold mt-2 manga-font">Sukuna</h5>
+                                        <p class="text-center">Estátua do personagem Sukuna da série de anime Jujutsu
+                                            Kaisen
+                                            Figura: Jujutsu Kaisen Jukon No Kata Sukuna
+                                            Fabricante: Bandai/Banpresto
+                                            Material: PVC
+                                            Altura aproximada: 16 cm</p>
+                                        <span class="mb-4 fs-4 fw-bold price">R$ 199,99</span>
+                                        <button type="button" class="btn w-75 mb-3">Adicionar ao carrinho</button>
+                                    </div>
+
+                                    <div class="col-md-3 product-card  d-flex flex-column align-items-center">
+                                        <img src="https://www.fantoy.com.br/media/catalog/product/cache/5070b15b05522f191912dd31c57262ab/e/v/eva_01_test-min_-_copia.jpg"
+                                            class="d-block w-100" alt="EVA 01 action figure">
+                                        <h5 class="text-colored fw-bold mt-2 manga-font">EVA 01</h5>
+                                        <p class="text-center">Figura de ação do personagem EVA Unit-01 do anime Rebuild
+                                            of Evangelion
+                                            Figura: Rebuild of Evangelion Model Kit Eva Unit-01 with Spear of Cassius
+                                            Fabricante: Kotobukiya
+                                            Material: PVC e ABS
+                                            Altura aproximada: 19 cm</p>
+                                        <span class="mb-4 fs-4 fw-bold price">R$ 749,99</span>
+                                        <button type="button" class="btn w-75 mb-3">Adicionar ao carrinho</button>
+                                    </div>
+
+                                    <div class="col-md-3 product-card  d-flex flex-column align-items-center">
+                                        <img src="https://www.fantoy.com.br/media/catalog/product/cache/5070b15b05522f191912dd31c57262ab/m/o/monkey_chapeu_2-min.jpg"
+                                            class="d-block w-100" alt="Luffy action figure">
+                                        <h5 class="text-colored fw-bold mt-2 manga-font">Action Figure Luffy</h5>
+                                        <p class="text-center">Estátua do personagem Luffy da série de anime One Piece
+                                            Figura: One Piece Grandista Nero Manga Dimensions Monkey D. Luffy
+                                            Fabricante: Bandai/Banpresto
+                                            Material: PVC
+                                            Altura aproximada: 28 cm</p>
+                                        <span class="mb-4 fs-4 fw-bold price">R$ 609,99</span>
+                                        <button type="button" class="btn w-75 mb-3">Adicionar ao carrinho</button>
+                                    </div>
+
+                                    <div class="col-md-3 product-card  d-flex flex-column align-items-center">
+                                        <img src="https://www.fantoy.com.br/media/catalog/product/cache/5070b15b05522f191912dd31c57262ab/u/r/uryu_ishida_1-min.jpg"
+                                            class="d-block w-100" alt="Ishida Action Figure">
+                                        <h5 class="text-colored fw-bold mt-2 manga-font">Uryu Ishida</h5>
+                                        <p class="text-center">Estátua do personagem Uryu Shida do anime Bleach
+                                            Figura: Bleach Solid and Souls Uryu Ishida
+                                            Fabricante: Bandai/Banpresto
+                                            Material: PVC
+                                            Altura aproximada: 17 cm </p>
+                                        <span class="mb-4 fs-4 fw-bold price">R$ 229,99</span>
+                                        <button type="button" class="btn w-75 mb-3">Adicionar ao carrinho</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    </section>
+
+    <section id="contato" class="pt-5 pb-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center manga-font">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored manga-font">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored manga-font">Seu email</label>
+                            <input type="text" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored manga-font">Seu telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored manga-font">Sua mensagem</label>
+                            <textarea id="mensagem" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row redes-sociais">
+                        <h3 class="section-title fs-4 text-colored manga-font">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais</h3>
+                        <ul class="social-links d-flex gap-5">
+                            <li class="fs-4 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-4">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-4">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-5">
+                        <h3 class="section-title fs-4 text-colored manga-font">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço</h3>
+                        <p>Rua Teste Exemplo n° 145, Bairro Bootstrap - São Paulo - SP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

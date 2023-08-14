@@ -1,0 +1,109 @@
+header {
+    background-color: #EF290F;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header .container h1, header .container h1:hover{
+    color: #FFF;
+}
+
+.btn, .btn:hover{
+    background-color: #EF290F;
+    color: #FFF;
+}
+
+.manga-font{
+    font-family: "Gloria Hallelujah", sans-serif;
+    font-weight: bold;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #FCBA5D;
+    color: #EF290F;
+}
+
+.text-colored{
+    color: #EF290F;
+}
+
+header .container button{
+    background-color: #FCBA5D;
+}
+
+.nav-link, .nav-link:hover{
+    color: #FFF;
+}
+
+.carousel-item{
+    max-height: 700px;
+}
+
+.carousel-item img{
+    background-repeat: cover;
+}
+
+#sobre-a-loja, #produtos{
+    background-color: #fcba5d7a;
+}
+
+#tipos div img{
+    max-height: 17rem;
+}
+
+.nav-produtos button.active{
+    background-color: #EF290F !important;
+}
+
+.product-card{
+    background-color: #FFF;
+    margin-left: .5rem;
+    margin-bottom: .7rem;
+    padding: .5rem;
+    border-radius: 6px;
+    
+}
+
+.tab-pane img{
+    min-height: 350px;
+    max-height: 350px;
+}
+
+#action-figures img{
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.tab-pane p{
+    min-height: 220px;
+    max-height: 220px;
+}
+
+.price{
+    color: #EF290F;
+    background-color: #FCBA5D;
+    padding: .2rem;
+    border-radius: 6px;
+}
+
+@media (max-width: 779px) {
+    .carousel-item{
+        max-height: 200px;
+        min-height: 200px;
+    }
+
+    .nav-produtos{
+        margin-bottom: 1.5rem;
+    }
+
+    .tab-pane img{
+        max-width: 250px;
+    }
+
+    .redes-sociais{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
